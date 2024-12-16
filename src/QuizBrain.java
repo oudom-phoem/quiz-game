@@ -8,6 +8,7 @@ public class QuizBrain {
 
     public QuizBrain(Question[] questionList, Scanner scanner) {
         this.questionList = questionList;
+        this.scanner = scanner;
     }
 
     public int getScore() {
