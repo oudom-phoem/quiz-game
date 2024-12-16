@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Data {
-    private List<Map<String, String>> questionData;
+    private final List<Map<String, String>> questionData;
 
     public Data() {
         questionData = new ArrayList<>();

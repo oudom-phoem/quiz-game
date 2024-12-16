@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class QuizBrain {
     private int questionNumber = 0;
     private int score = 0;
-    private Question[] questionList;
-    private Scanner scanner;
+    private final Question[] questionList;
+    private final Scanner scanner;
 
     public QuizBrain(Question[] questionList, Scanner scanner) {
         this.questionList = questionList;
